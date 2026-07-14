@@ -1,0 +1,57 @@
+{
+  "project": "wq-alpha-research",
+  "description": "Three high-performing WorldQuant BRAIN Python alpha research notes and source files.",
+  "alphas": [
+    {
+      "name": "ind_positive_intraday_hit_rate_reversal",
+      "file": "alphas/ind_positive_intraday_hit_rate_reversal.py",
+      "region": "IND",
+      "universe": "TOP500",
+      "neutralization": "STATISTICAL",
+      "decay": 25,
+      "delay": 1,
+      "truncation": 0.08,
+      "lookback": 251,
+      "sharpe": 4.32,
+      "fitness": 3.43,
+      "turnover": "33.96%",
+      "returns": "21.41%",
+      "drawdown": "4.01%",
+      "margin": "12.61%"
+    },
+    {
+      "name": "ind_midpoint_close_rank_residual",
+      "file": "alphas/ind_midpoint_close_rank_residual.py",
+      "region": "IND",
+      "universe": "TOP500",
+      "neutralization": "STATISTICAL",
+      "decay": 20,
+      "delay": 1,
+      "truncation": 0.08,
+      "lookback": 252,
+      "sharpe": 3.93,
+      "fitness": 2.81,
+      "turnover": "34.57%",
+      "returns": "17.67%",
+      "drawdown": "3.67%",
+      "margin": "10.22%"
+    },
+    {
+      "name": "mea_vwap_dislocation_residual",
+      "file": "alphas/mea_vwap_dislocation_residual.py",
+      "region": "MEA",
+      "universe": "TOP400",
+      "neutralization": "COUNTRY",
+      "decay": 20,
+      "delay": 1,
+      "truncation": 0.08,
+      "lookback": 252,
+      "sharpe": 3.24,
+      "fitness": 2.60,
+      "turnover": "27.63%",
+      "returns": "17.81%",
+      "drawdown": "4.95%",
+      "margin": "12.89%"
+    }
+  ]
+}
