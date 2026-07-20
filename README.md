@@ -1,4 +1,4 @@
-# WQ Alpha Research
+# WQ Python Alpha Research
 
 This project keeps three high-performing WorldQuant BRAIN Python alpha ideas
 with their implementation notes, simulation settings, and research rationale.
